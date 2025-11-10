@@ -91,7 +91,7 @@ async def init():
         exit()
 
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("BerlinFtMusic Started Successfully")
+    LOGGER("YukkiMusic").info("Dpartymonth Started Successfully")
     await idle()
     await app.stop()
     await userbot.stop()
@@ -100,7 +100,7 @@ async def init():
 
 def main():
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping BeinFtMusic! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping Dpartymonth! GoodBye")
 
 
 if __name__ == "__main__":

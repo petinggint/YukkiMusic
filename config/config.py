@@ -88,7 +88,7 @@ LOG_GROUP_ID = getenv("LOG_GROUP_ID", "").strip()
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5926279915").split())
+    map(int, getenv("OWNER_ID", "8253929490").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -114,10 +114,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/homebabyangels"
+    "SUPPORT_CHANNEL", "https://t.me/+l6FguzDyfSsxNWQ1"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/homebabyangels"
+    "SUPPORT_GROUP", "https://t.me/+l6FguzDyfSsxNWQ1"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -211,12 +211,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -226,12 +226,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -241,37 +241,37 @@ TELEGRAM_AUDIO_URL = getenv(
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://files.catbox.moe/ditwxi.jpg",
+    "https://ibb.co.com/Fq3VxsGM",
 )
 
 
@@ -323,7 +323,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if PING_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -331,7 +331,7 @@ if PING_IMG_URL:
             _sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if PLAYLIST_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -339,7 +339,7 @@ if PLAYLIST_IMG_URL:
             _sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if GLOBAL_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -348,7 +348,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if STATS_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -357,7 +357,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if TELEGRAM_AUDIO_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -366,7 +366,7 @@ if TELEGRAM_AUDIO_URL:
 
 
 if STREAM_IMG_URL:
-    if STREAM_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if STREAM_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", STREAM_IMG_URL):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -375,7 +375,7 @@ if STREAM_IMG_URL:
 
 
 if SOUNCLOUD_IMG_URL:
-    if SOUNCLOUD_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if SOUNCLOUD_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", SOUNCLOUD_IMG_URL):
             print(
                 "[ERROR] - Your SOUNCLOUD_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -383,7 +383,7 @@ if SOUNCLOUD_IMG_URL:
             _sys.exit()
 
 if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if YOUTUBE_IMG_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -392,7 +392,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "https://files.catbox.moe/ditwxi.jpg":
+    if TELEGRAM_VIDEO_URL != "https://ibb.co.com/Fq3VxsGM":
         if not _re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
